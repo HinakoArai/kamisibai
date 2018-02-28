@@ -14,7 +14,6 @@
 		CE39086820454AE300204B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE39086620454AE300204B4B /* LaunchScreen.storyboard */; };
 		CE39087320454AE400204B4B /* mitakekamisibaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39087220454AE400204B4B /* mitakekamisibaiTests.swift */; };
 		CE39087E20454AE400204B4B /* mitakekamisibaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39087D20454AE400204B4B /* mitakekamisibaiUITests.swift */; };
-		CE56E0A8204664B400ECC784 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0A7204664B400ECC784 /* top.png */; };
 		CE56E0AA204664EC00ECC784 /* startbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0A9204664EC00ECC784 /* startbutton.png */; };
 		CE56E0AC20466C7200ECC784 /* japanese.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0AB20466C7200ECC784 /* japanese.png */; };
 		CE56E0AE20466CA800ECC784 /* englishs.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0AD20466CA800ECC784 /* englishs.png */; };
@@ -23,6 +22,7 @@
 		CE56E0B42046755500ECC784 /* nextbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0B32046755500ECC784 /* nextbutton.png */; };
 		CE56E0B62046756400ECC784 /* settingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0B52046756400ECC784 /* settingbutton.png */; };
 		CE56E0B82046759600ECC784 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0B72046759600ECC784 /* backbutton.png */; };
+		CE56E0BA2046818700ECC784 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = CE56E0B92046818600ECC784 /* top.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		CE39087920454AE400204B4B /* mitakekamisibaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mitakekamisibaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE39087D20454AE400204B4B /* mitakekamisibaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mitakekamisibaiUITests.swift; sourceTree = "<group>"; };
 		CE39087F20454AE400204B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE56E0A7204664B400ECC784 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top.png; path = "../素材/top.png"; sourceTree = "<group>"; };
 		CE56E0A9204664EC00ECC784 /* startbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startbutton.png; sourceTree = "<group>"; };
 		CE56E0AB20466C7200ECC784 /* japanese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japanese.png; sourceTree = "<group>"; };
 		CE56E0AD20466CA800ECC784 /* englishs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = englishs.png; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		CE56E0B32046755500ECC784 /* nextbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextbutton.png; sourceTree = "<group>"; };
 		CE56E0B52046756400ECC784 /* settingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingbutton.png; sourceTree = "<group>"; };
 		CE56E0B72046759600ECC784 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		CE56E0B92046818600ECC784 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top.png; path = "../../素材/top.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 				CE56E0AF2046739400ECC784 /* illust.png */,
 				CE56E0AD20466CA800ECC784 /* englishs.png */,
 				CE56E0AB20466C7200ECC784 /* japanese.png */,
-				CE56E0A7204664B400ECC784 /* top.png */,
+				CE56E0B92046818600ECC784 /* top.png */,
 				CE56E0A9204664EC00ECC784 /* startbutton.png */,
 				CE56E0B1204673D000ECC784 /* textbar.png */,
 				CE56E0B32046755500ECC784 /* nextbutton.png */,
@@ -268,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE39086820454AE300204B4B /* LaunchScreen.storyboard in Resources */,
-				CE56E0A8204664B400ECC784 /* top.png in Resources */,
 				CE56E0B02046739400ECC784 /* illust.png in Resources */,
 				CE56E0AC20466C7200ECC784 /* japanese.png in Resources */,
 				CE56E0B42046755500ECC784 /* nextbutton.png in Resources */,
@@ -277,6 +276,7 @@
 				CE56E0AA204664EC00ECC784 /* startbutton.png in Resources */,
 				CE39086520454AE300204B4B /* Assets.xcassets in Resources */,
 				CE39086320454AE300204B4B /* Main.storyboard in Resources */,
+				CE56E0BA2046818700ECC784 /* top.png in Resources */,
 				CE56E0B62046756400ECC784 /* settingbutton.png in Resources */,
 				CE56E0AE20466CA800ECC784 /* englishs.png in Resources */,
 			);
